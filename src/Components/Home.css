@@ -1,0 +1,89 @@
+.main-container {
+   width: 100%;
+   height: auto;
+   
+}
+.left{
+    height:100vh;
+    width: 70%;
+    background-color: #f6eade;
+    position: absolute;
+    opacity: 0.8;
+    float: left;
+}
+.right {
+    height:100vh;
+    width: 30%;
+    background-color:rgb(249,102,102);
+    position: relative;
+    float: right;
+    opacity: 0.8;
+}
+.header-component {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 9;
+}
+.contents {
+    width: 90%;
+    height: auto;
+    position: absolute;
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.contents .left-content {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.contents .left-content p:nth-child(1){
+    font-family: 'Lugrasimo', cursive;
+    font-size: 90px;
+    line-height: 120px;
+    font-weight: 500;
+}
+.contents .left-content p:nth-child(2){
+    width: 80%;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.6;
+    text-align: justify;
+}
+.img-container {
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+.img-container img {
+    height: 600px;
+    width: 350px;
+    position: relative;
+    z-index: 100;
+}
+.img-container .bg-div {
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    border: 70px solid black;
+    border-radius: 100%;
+    opacity: 0.9;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+.img-container .bg-div2 {
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: 40px solid black;
+    border-radius: 100%;
+    opacity: 0.9;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}

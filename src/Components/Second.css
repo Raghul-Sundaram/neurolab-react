@@ -1,0 +1,38 @@
+.second-container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.second-left {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-left img {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(240, 212, 175);
+    border-radius: 100%;
+}
+.second-right {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.second-right p:nth-child(1){
+    width: 70%;
+    font-size: 60px;
+}
+.second-right p:nth-child(2){
+    width: 70%;
+    font-size: 20px;
+    opacity: 0.7;
+}
